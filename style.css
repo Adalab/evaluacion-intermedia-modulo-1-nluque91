@@ -1,0 +1,47 @@
+.container {
+  border: indigo solid 3px;
+}
+
+
+.header-container {
+  border: solid 3px red;
+  box-sizing: border-box;
+  /*padding: 10px;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative
+}
+
+.logo-img {
+  border: solid 2px blue;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+
+}
+
+.header-menu {
+  border: solid 2px yellow;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+}
+
+.main-container {
+  border: solid 2px green;
+  background: #3CDBC0;
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.heder-menu-li {
+  position: relative;
+  box-sizing: border-box;
+  display: inline;
+}
