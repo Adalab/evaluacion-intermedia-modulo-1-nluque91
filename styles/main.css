@@ -57,6 +57,28 @@ body {
   text-decoration: none;
 }
 
+@media all and (min-width: 768px) {
+  .header__container {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+  }
+
+  .logo__img {
+    padding: 20px 0px 20px 30px;
+    width: 155px;
+  }
+
+  .header__menu {
+    position: relative;
+    left: 400px;
+  }
+
+  .header__menu--item {
+    padding: 10px;
+  }
+}
+
 .main__container {
   border: solid 2px green;
   background: #3cdbc0;
@@ -68,4 +90,14 @@ body {
   display: flex;
   height: 100vh;
   padding-top: 200px;
+}
+
+@media all and (min-width: 768px) {
+  .main__container {
+    text-align: center;
+    font-size: 40px;
+  }
+  .main__text {
+    padding: 60px;
+  }
 }
